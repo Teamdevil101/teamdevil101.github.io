@@ -6,11 +6,11 @@ export default function Navbar(){
             <img src="DMW_Logo512.png" className="navbar-logo" />
             <h1 className="navbar-title">T-Devil101's Website</h1>
             <ul className="navbar-options">
-                <li><a href="">Home</a></li>
-                <li><a href="">Blog</a></li>
+                <li><a className="navbar-option" href="">Home</a></li>
+                <li><a className="navbar-option" href="">Blog</a></li>
                 <li>
                     <div className="navbar-dropdown">
-                    <a href="">Projects</a>
+                    <a className="navbar-option" href="">Projects</a>
                         <div className="navbar-dropdown-content">
                             <ul>
                                 <li><a href="https://teamdevil101.itch.io/tcb">TCB Original</a></li>
@@ -20,6 +20,8 @@ export default function Navbar(){
                         </div>
                     </div>
                 </li>
+                <li className="navbar-social-media"><a href=""><img src="DMW_Logo192.png"></img></a></li>
+                <li className="navbar-social-media"><a href=""><img src="DMW_Logo192.png"></img></a></li>
             </ul>
         </nav>
     )

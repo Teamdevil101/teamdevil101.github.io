@@ -14,10 +14,17 @@ body {
 }
 
 /*Homepage*/
-.home-title{
+home {
+  padding: 10px 100px;
   color: white;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  text-align: center;
+}
+
+.home-box {
+  padding-top: 50px;
 }
 
 /*Navigation Bar*/
@@ -52,12 +59,23 @@ nav {
   width: 34%;
 }
 
-.navbar-options > li > a {
+.navbar-option {
   float: right;
   padding: 16px 32px;
   background-color: #2b2b2b;
   text-decoration: none;
   color: white;
+}
+
+.navbar-social-media{
+  padding: 10px 12px;
+}
+
+.navbar-social-media > a > img {
+  float: right;
+  text-decoration: none;
+  color: white;
+  max-width: 32px;
 }
 
 .navbar-dropdown > a {
